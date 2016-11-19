@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: machion
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: da2c6cfb-6991-45df-9039-f497be2ce7ad
+    CAR_SERVICE_HOST: machion.mybluemix.net
